@@ -6,6 +6,9 @@
     <title>Lucas Vanderlei</title>
   
     <link rel="stylesheet" href="curriculo.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
   <body>
     <!--Exercício de criação de currículo-->
@@ -38,6 +41,44 @@
            
 </div>
 <hr>
+<!-- Botão para abrir o modal -->
+<div class="text-center my-4">
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Saiba mais sobre um projeto
+  </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Projeto: Sistema de Gerenciamento de Tarefas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <h6>Descrição:</h6>
+              <p>Um sistema web para gerenciamento de tarefas, permitindo que os usuários criem, editem e excluam tarefas.</p>
+
+              <h6>Tecnologias Usadas:</h6>
+              <ul>
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                  <li>Bootstrap</li>
+              </ul>
+
+              <h6>Link para o Projeto:</h6>
+              <a href="https://github.com/lucasvanderleim" target="_blank">Veja no GitHub</a>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 <footer>
     <span>Copyright © 2024. Todos os Direitos Reservados.</span>
